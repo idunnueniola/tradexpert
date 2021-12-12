@@ -47,7 +47,7 @@ const Section4 = () => {
             <div className="exclamation3">
               <img src={require("./images/exclamation.png").default} />
             </div>
-            <div className="trading3">
+            <div className="trading">
               <p>
                 Easy to fund and withdraw coins or cash on their platform, I
                 will definitely trade with them again.

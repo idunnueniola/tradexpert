@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Section3 = () => {
   return (
@@ -9,7 +10,7 @@ const Section3 = () => {
           <h4>Create your account for free and start trading today!</h4>
           <br />
           <button>
-            <a href="">Get Started</a>
+            <Link to="/GetStarted">Get Started</Link>
           </button>
         </div>
         <br /> <br /> <br />

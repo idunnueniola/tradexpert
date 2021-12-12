@@ -1,22 +1,53 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import NavBar from "./NavBar";
-import Section1 from "./Section1";
-import Section2 from "./Section2";
-import Section3 from "./Section3";
-import Section4 from "./Section4";
-import Section5 from "./Section5";
+import Home from "./Home";
+import GetStarted from "./GetStarted";
+import Instant from "./Instant";
+import Sell from "./Sell";
+import Learn from "./Learn";
+import Login from "./Login";
+import Business from "./Business";
+import Welcome from "./Welcome";
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <NavBar />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-    </div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+<Route path="/Welcome">
+  <Welcome/>
+</Route>
+        <Route path="/Instant">
+          <Instant />
+        </Route>
+        <Route path="/Sell">
+          <Sell />
+        </Route>
+        <Route path="/learn">
+          <Learn />
+        </Route>
+
+        <Route path="/login">
+          <Login />
+        </Route>
+
+        <Route path="/getstarted">
+          <GetStarted />
+        </Route>
+        <Route path="/Business">
+          <Business />
+        </Route>
+        <Route path="/Instant">
+          <Instant />
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 
