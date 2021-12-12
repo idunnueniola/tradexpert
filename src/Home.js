@@ -23,7 +23,7 @@ const Home = () => {
             <br /> <br />
             <div className="getstarted">
               <button>
-                <Link to="/GetStarted">Get Started</Link>
+                <Link to="/GetStarted">Get Started </Link>
               </button>
             </div>
             <br /> <br />

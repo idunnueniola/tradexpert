@@ -9,7 +9,7 @@ const Welcome = () => {
           <div>
             <h4>You're Almost In!</h4>
           </div>
-          <div  className="welcomep">
+          <div className="welcomep">
             <p>Welcome Eniola</p>
           </div>
           <div>
@@ -18,7 +18,7 @@ const Welcome = () => {
           <div className="p">
             <p>
               An activation link has been sent to <span></span>
-               <a href="">idunnueniola@gmail.com</a> Please click on the link to
+              <a href="">idunnueniola@gmail.com</a> Please click on the link to
               verify your email and activate your TradExpress account.
             </p>
           </div>

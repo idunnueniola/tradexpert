@@ -565,8 +565,6 @@ header {
 .welcome {
   text-align: center;
   font-size: 2em;
-
-  /* padding-top: 1em; */
 }
 .signup input {
   width: 92%;
@@ -658,26 +656,6 @@ header {
 
 /* END OF BUSINESS/GET STARTED/INDIVIDUAL COMPONENT */
 
-/* .naira {
-  position: relative;
-  display: flex;
-  width: 100%;
-}
-
-.naira input {
-  position: relative;
-  top: 2em;
-  height: 4em;
-  width: 26em;
-  margin-left: 1.6em;
-  border-radius: 4px;
-} */
-
-/* .smalloption {
-  position: relative;
-  width: 2em;
-  border-radius: 1px;
-} */
 .pick select {
   justify-content: center;
   position: relative;
@@ -1564,4 +1542,3 @@ header {
     font-size: 1em;
   }
 }
-

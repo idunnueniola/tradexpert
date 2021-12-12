@@ -3,7 +3,7 @@ import React from "react";
 const Section2 = () => {
   return (
     <section className="section2">
-      <div className="sectioncreate">
+      <div className="g">
       <div className="section2buy">
         <h4>Buy and Sell your Cryptocurrency in 3 simple steps</h4>
       </div>
